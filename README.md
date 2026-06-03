@@ -1,25 +1,21 @@
-````md
 <div align="center">
 
-<!-- Animated Header -->
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:7C3AED,100:2DD4BF&height=220&section=header&text=AquaFarm%20Ledger&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Smart%20Fish%20Farm%20Management%20SaaS&descAlignY=58&descSize=18" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:050505,50:7C3AED,100:2DD4BF&height=220&section=header&text=AquaFarm%20Ledger&fontSize=48&fontColor=ffffff&animation=fadeIn&fontAlignY=38&desc=Smart%20Fish%20Farm%20Management%20SaaS&descAlignY=58&descSize=18" alt="AquaFarm Ledger Header" />
 
-<!-- Typing Animation -->
-<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=850&lines=Production-Style+AquaTech+SaaS+Platform;Track+Ponds+%7C+Fish+Batches+%7C+Feed+Logs;Monitor+Water+Quality+%7C+Mortality+%7C+Harvest;Analyze+Costs+%7C+Alerts+%7C+Reports" alt="Typing SVG" />
+<img src="https://readme-typing-svg.demolab.com?font=Inter&weight=700&size=24&duration=2800&pause=900&color=7C3AED&center=true&vCenter=true&width=850&lines=Production-Style+AquaTech+SaaS+Platform;Track+Ponds+%7C+Fish+Batches+%7C+Feed+Logs;Monitor+Water+Quality+%7C+Mortality+%7C+Harvest;Analyze+Costs+%7C+Alerts+%7C+Reports" alt="Typing Animation" />
 
-<br/>
+<br />
 
-<!-- Badges -->
-<img src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-7C3AED?style=for-the-badge&logo=react&logoColor=white" />
-<img src="https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-050505?style=for-the-badge&logo=node.js&logoColor=white" />
-<img src="https://img.shields.io/badge/Database-MongoDB-2DD4BF?style=for-the-badge&logo=mongodb&logoColor=050505" />
-<img src="https://img.shields.io/badge/UI-Tailwind%20CSS-7C3AED?style=for-the-badge&logo=tailwindcss&logoColor=white" />
+<img src="https://img.shields.io/badge/Frontend-React%20%2B%20Vite-7C3AED?style=for-the-badge&logo=react&logoColor=white" alt="React Vite" />
+<img src="https://img.shields.io/badge/Backend-Node.js%20%2B%20Express-050505?style=for-the-badge&logo=node.js&logoColor=white" alt="Node Express" />
+<img src="https://img.shields.io/badge/Database-MongoDB-2DD4BF?style=for-the-badge&logo=mongodb&logoColor=050505" alt="MongoDB" />
+<img src="https://img.shields.io/badge/UI-Tailwind%20CSS-7C3AED?style=for-the-badge&logo=tailwindcss&logoColor=white" alt="Tailwind CSS" />
 
-<br/>
+<br />
 
-<img src="https://img.shields.io/badge/Auth-JWT%20%2B%20Role%20Based-050505?style=for-the-badge&logo=jsonwebtokens&logoColor=white" />
-<img src="https://img.shields.io/badge/Charts-Recharts-2DD4BF?style=for-the-badge&logo=chartdotjs&logoColor=050505" />
-<img src="https://img.shields.io/badge/Status-Portfolio%20Ready-7C3AED?style=for-the-badge&logo=github&logoColor=white" />
+<img src="https://img.shields.io/badge/Auth-JWT%20%2B%20Role%20Based-050505?style=for-the-badge&logo=jsonwebtokens&logoColor=white" alt="JWT Auth" />
+<img src="https://img.shields.io/badge/Charts-Recharts-2DD4BF?style=for-the-badge&logo=chartdotjs&logoColor=050505" alt="Recharts" />
+<img src="https://img.shields.io/badge/Status-Portfolio%20Ready-7C3AED?style=for-the-badge&logo=github&logoColor=white" alt="Portfolio Ready" />
 
 </div>
 
@@ -39,11 +35,11 @@ It helps aquaculture businesses manage **ponds, fish batches, feeding logs, wate
 
 <div align="center">
 
-| 🌊 Landing Page | 📊 Dashboard | 🐟 Farm Management |
-|---|---|---|
+| 🌊 Landing Page                 | 📊 Dashboard                 | 🐟 Farm Management            |
+| ------------------------------- | ---------------------------- | ----------------------------- |
 | Premium futuristic hero section | Analytics and smart insights | Pond, batch and feed tracking |
-| Purple glow effects | Charts and KPI cards | Real aquaculture workflow |
-| SaaS-style CTA layout | Alerts and reports | Role-based access |
+| Purple glow effects             | Charts and KPI cards         | Real aquaculture workflow     |
+| SaaS-style CTA layout           | Alerts and reports           | Role-based access             |
 
 </div>
 
@@ -51,35 +47,35 @@ It helps aquaculture businesses manage **ponds, fish batches, feeding logs, wate
 
 ## 🚀 Key Highlights
 
-- 🎨 **Premium Purple / White / Black SaaS UI** with aqua-green accents  
-- 🔐 **JWT Authentication** with role-based access control  
-- 👤 User roles: **Farm Owner/Admin**, **Manager**, **Technician**  
-- 🏞️ Pond profile management  
-- 🐠 Fish batch and stock tracking  
-- 🌾 Feeding logs and feed schedule management  
-- 💧 Water quality monitoring with automatic health scoring  
-- ⚠️ Smart alert generation for dangerous farm conditions  
-- ☠️ Mortality tracking with survival-rate calculation  
-- 🧮 Biomass, harvest revenue, profit and ROI calculators  
-- 📈 Recharts-powered analytics dashboard  
-- 📋 Reports for ponds, batches, feed, water quality, harvest and costs  
-- 🇱🇰 Demo seed data with Sri Lankan aquaculture examples  
-- 📱 Fully responsive layout for desktop, tablet and mobile  
+* 🎨 **Premium Purple / White / Black SaaS UI** with aqua-green accents
+* 🔐 **JWT Authentication** with role-based access control
+* 👤 User roles: **Farm Owner/Admin**, **Manager**, **Technician**
+* 🏞️ Pond profile management
+* 🐠 Fish batch and stock tracking
+* 🌾 Feeding logs and feed schedule management
+* 💧 Water quality monitoring with automatic health scoring
+* ⚠️ Smart alert generation for dangerous farm conditions
+* ☠️ Mortality tracking with survival-rate calculation
+* 🧮 Biomass, harvest revenue, profit and ROI calculators
+* 📈 Recharts-powered analytics dashboard
+* 📋 Reports for ponds, batches, feed, water quality, harvest and costs
+* 🇱🇰 Demo seed data with Sri Lankan aquaculture examples
+* 📱 Fully responsive layout for desktop, tablet and mobile
 
 ---
 
 ## 🧠 Smart Features
 
-| Feature | Description |
-|---|---|
-| 💧 Water Quality Score | Calculates pond health using pH, temperature, oxygen and ammonia values |
-| ⚠️ Auto Alerts | Generates alerts for critical pH, low oxygen, high temperature and mortality |
-| 🐟 Survival Rate | Tracks fish stock after mortality logs |
-| 📦 Biomass Estimator | Estimates total fish biomass using stock count and average weight |
-| 🧾 Cost Analytics | Tracks feed, fingerling, medicine, labor, equipment and maintenance costs |
-| 💰 Profit Estimator | Calculates expected revenue, profit and ROI |
-| 🗓️ Harvest Planning | Predicts harvest readiness and estimated harvest value |
-| 📊 Reports Dashboard | Provides business-level aquaculture insights |
+| Feature                | Description                                                                  |
+| ---------------------- | ---------------------------------------------------------------------------- |
+| 💧 Water Quality Score | Calculates pond health using pH, temperature, oxygen and ammonia values      |
+| ⚠️ Auto Alerts         | Generates alerts for critical pH, low oxygen, high temperature and mortality |
+| 🐟 Survival Rate       | Tracks fish stock after mortality logs                                       |
+| 📦 Biomass Estimator   | Estimates total fish biomass using stock count and average weight            |
+| 🧾 Cost Analytics      | Tracks feed, fingerling, medicine, labor, equipment and maintenance costs    |
+| 💰 Profit Estimator    | Calculates expected revenue, profit and ROI                                  |
+| 🗓️ Harvest Planning   | Predicts harvest readiness and estimated harvest value                       |
+| 📊 Reports Dashboard   | Provides business-level aquaculture insights                                 |
 
 ---
 
@@ -87,34 +83,34 @@ It helps aquaculture businesses manage **ponds, fish batches, feeding logs, wate
 
 ### 🎨 Frontend
 
-| Technology | Usage |
-|---|---|
-| React | UI development |
-| Vite | Fast frontend build tool |
-| Tailwind CSS | Modern responsive styling |
-| React Router | Page routing |
-| Axios | API requests |
-| Recharts | Analytics charts |
-| React Hook Form | Form handling |
-| Zod | Frontend validation |
-| Lucide React | Icons |
-| Framer Motion | Animations |
-| React Hot Toast | Toast notifications |
+| Technology      | Usage                     |
+| --------------- | ------------------------- |
+| React           | UI development            |
+| Vite            | Fast frontend build tool  |
+| Tailwind CSS    | Modern responsive styling |
+| React Router    | Page routing              |
+| Axios           | API requests              |
+| Recharts        | Analytics charts          |
+| React Hook Form | Form handling             |
+| Zod             | Frontend validation       |
+| Lucide React    | Icons                     |
+| Framer Motion   | Animations                |
+| React Hot Toast | Toast notifications       |
 
 ### ⚙️ Backend
 
-| Technology | Usage |
-|---|---|
-| Node.js | Runtime |
-| Express.js | Backend API |
-| MongoDB | Database |
-| Mongoose | ODM models |
-| JWT | Authentication |
-| bcryptjs | Password hashing |
-| Helmet | Security headers |
-| CORS | Cross-origin access |
-| express-rate-limit | API rate limiting |
-| Zod | Backend validation |
+| Technology         | Usage               |
+| ------------------ | ------------------- |
+| Node.js            | Runtime             |
+| Express.js         | Backend API         |
+| MongoDB            | Database            |
+| Mongoose           | ODM models          |
+| JWT                | Authentication      |
+| bcryptjs           | Password hashing    |
+| Helmet             | Security headers    |
+| CORS               | Cross-origin access |
+| express-rate-limit | API rate limiting   |
+| Zod                | Backend validation  |
 
 ---
 
@@ -134,7 +130,7 @@ It helps aquaculture businesses manage **ponds, fish batches, feeding logs, wate
 📋 Reports Dashboard
 ⚙️ Farm Settings
 👤 User Profile
-````
+```
 
 ---
 
@@ -374,9 +370,9 @@ Accent: Aqua Green
 
 Full Stack Developer | AI Engineer Enthusiast | AquaTech SaaS Builder
 
-<img src="https://img.shields.io/badge/GitHub-LithiraLiyanage-050505?style=for-the-badge&logo=github&logoColor=white" />
-<img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" />
-<img src="https://img.shields.io/badge/Project-AquaFarm%20Ledger-2DD4BF?style=for-the-badge&logo=github&logoColor=050505" />
+<img src="https://img.shields.io/badge/GitHub-LithiraLiyanage-050505?style=for-the-badge&logo=github&logoColor=white" alt="GitHub" />
+<img src="https://img.shields.io/badge/Portfolio-Coming%20Soon-7C3AED?style=for-the-badge&logo=vercel&logoColor=white" alt="Portfolio" />
+<img src="https://img.shields.io/badge/Project-AquaFarm%20Ledger-2DD4BF?style=for-the-badge&logo=github&logoColor=050505" alt="Project" />
 
 </div>
 
@@ -386,7 +382,7 @@ Full Stack Developer | AI Engineer Enthusiast | AquaTech SaaS Builder
 
 ### 🌊 Built to make fish farm management smarter, cleaner and more profitable.
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2DD4BF,50:7C3AED,100:050505&height=120&section=footer" />
+<img src="https://capsule-render.vercel.app/api?type=waving&color=0:2DD4BF,50:7C3AED,100:050505&height=120&section=footer" alt="Footer" />
 
 </div>
-```
+
