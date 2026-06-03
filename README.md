@@ -50,18 +50,6 @@ It helps aquaculture businesses manage **ponds, fish batches, feeding logs, wate
 
 ---
 
-## 🖼️ Screenshots
-
-<div align="center">
-
-| 🌊 Premium Landing Page | 🧩 Feature Cards |
-|---|---|
-| <img src="./screenshots/landing.png" alt="Landing Page" width="450" /> | <img src="./screenshots/features.png" alt="Features Section" width="450" /> |
-
-</div>
-
----
-
 ## 🚀 Key Highlights
 
 * 🎨 **Premium Purple / White / Black SaaS UI** with aqua-green accents
