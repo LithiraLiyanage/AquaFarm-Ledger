@@ -35,11 +35,28 @@ It helps aquaculture businesses manage **ponds, fish batches, feeding logs, wate
 
 <div align="center">
 
-| 🌊 Landing Page                 | 📊 Dashboard                 | 🐟 Farm Management            |
-| ------------------------------- | ---------------------------- | ----------------------------- |
-| Premium futuristic hero section | Analytics and smart insights | Pond, batch and feed tracking |
-| Purple glow effects             | Charts and KPI cards         | Real aquaculture workflow     |
-| SaaS-style CTA layout           | Alerts and reports           | Role-based access             |
+### 🌊 Landing Page
+
+<img src="./screenshots/landing.png" alt="AquaFarm Ledger Landing Page" width="100%" />
+
+<br />
+<br />
+
+### 🧩 Feature Showcase
+
+<img src="./screenshots/features.png" alt="AquaFarm Ledger Features Section" width="100%" />
+
+</div>
+
+---
+
+## 🖼️ Screenshots
+
+<div align="center">
+
+| 🌊 Premium Landing Page | 🧩 Feature Cards |
+|---|---|
+| <img src="./screenshots/landing.png" alt="Landing Page" width="450" /> | <img src="./screenshots/features.png" alt="Features Section" width="450" /> |
 
 </div>
 
