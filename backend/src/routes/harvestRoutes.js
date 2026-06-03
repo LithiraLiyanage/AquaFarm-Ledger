@@ -1,0 +1,13 @@
+import express from 'express';
+import { protect, authorize } from '../middleware/authMiddleware.js';
+import { validate } from '../middleware/validate.js';
+import { crud } from '../controllers/crudController.js';
+import HarvestPlan from '../models/HarvestPlan.js';
+import { harvestSchema } from '../validators/schemas.js';
+import { createHarvest } from '../controllers/businessControllers.js';
+const router = express.Router();
+const c = crud(HarvestPlan, 'pond batch');
+router.use(protect);
+router.route('/').get(c.getAll).post(authorize('admin','manager'), validate(harvestSchema), createHarvest);
+router.route('/:id').get(c.getOne).put(authorize('admin','manager'), validate(harvestSchema), c.update).delete(authorize('admin'), c.remove);
+export default router;

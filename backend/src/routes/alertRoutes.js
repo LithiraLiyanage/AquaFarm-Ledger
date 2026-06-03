@@ -1,0 +1,11 @@
+import express from 'express';
+import { protect } from '../middleware/authMiddleware.js';
+import Alert from '../models/Alert.js';
+import { asyncHandler } from '../utils/asyncHandler.js';
+const router = express.Router();
+router.use(protect);
+router.get('/', asyncHandler(async(req,res)=>res.json({success:true,data:await Alert.find({owner:req.user._id}).populate('pond batch').sort({createdAt:-1})})));
+router.put('/:id/read', asyncHandler(async(req,res)=>res.json({success:true,data:await Alert.findOneAndUpdate({_id:req.params.id,owner:req.user._id},{status:'Read'},{new:true})})));
+router.put('/:id/resolve', asyncHandler(async(req,res)=>res.json({success:true,data:await Alert.findOneAndUpdate({_id:req.params.id,owner:req.user._id},{status:'Resolved'},{new:true})})));
+router.delete('/:id', asyncHandler(async(req,res)=>{await Alert.findOneAndDelete({_id:req.params.id,owner:req.user._id});res.json({success:true,message:'Alert deleted.'})}));
+export default router;

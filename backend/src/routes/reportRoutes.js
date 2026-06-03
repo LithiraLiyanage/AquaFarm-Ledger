@@ -1,0 +1,11 @@
+import express from 'express';
+import { protect } from '../middleware/authMiddleware.js';
+import { getDashboardReport } from '../controllers/businessControllers.js';
+const router = express.Router();
+router.use(protect);
+router.get('/dashboard', getDashboardReport);
+router.get('/ponds', getDashboardReport);
+router.get('/batches', getDashboardReport);
+router.get('/costs', getDashboardReport);
+router.get('/harvest', getDashboardReport);
+export default router;

@@ -1,0 +1,10 @@
+import express from 'express';
+import { protect, authorize } from '../middleware/authMiddleware.js';
+import { validate } from '../middleware/validate.js';
+import { settingsSchema } from '../validators/schemas.js';
+import { getSettings, updateSettings } from '../controllers/businessControllers.js';
+const router = express.Router();
+router.use(protect);
+router.get('/', getSettings);
+router.put('/', authorize('admin','manager'), validate(settingsSchema), updateSettings);
+export default router;

@@ -1,0 +1,13 @@
+import express from 'express';
+import { protect, authorize } from '../middleware/authMiddleware.js';
+import { validate } from '../middleware/validate.js';
+import { crud } from '../controllers/crudController.js';
+import WaterQualityLog from '../models/WaterQualityLog.js';
+import { waterSchema } from '../validators/schemas.js';
+import { createWaterLog, updateWaterLog } from '../controllers/businessControllers.js';
+const router = express.Router();
+const c = crud(WaterQualityLog, 'pond');
+router.use(protect);
+router.route('/').get(c.getAll).post(authorize('admin','manager','technician'), validate(waterSchema), createWaterLog);
+router.route('/:id').get(c.getOne).put(authorize('admin','manager','technician'), validate(waterSchema), updateWaterLog).delete(authorize('admin'), c.remove);
+export default router;

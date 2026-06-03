@@ -1,0 +1,13 @@
+import express from 'express';
+import { protect, authorize } from '../middleware/authMiddleware.js';
+import { validate } from '../middleware/validate.js';
+import { crud } from '../controllers/crudController.js';
+import MortalityLog from '../models/MortalityLog.js';
+import { mortalitySchema } from '../validators/schemas.js';
+import { createMortality } from '../controllers/businessControllers.js';
+const router = express.Router();
+const c = crud(MortalityLog, 'pond batch');
+router.use(protect);
+router.route('/').get(c.getAll).post(authorize('admin','manager','technician'), validate(mortalitySchema), createMortality);
+router.route('/:id').get(c.getOne).put(authorize('admin','manager'), validate(mortalitySchema), c.update).delete(authorize('admin'), c.remove);
+export default router;
