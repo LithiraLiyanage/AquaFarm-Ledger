@@ -1,0 +1,3 @@
+import React from 'react';
+import { Card, PageHeader } from '../components/ui';import { useAuth } from '../context/AuthContext';
+export default function Profile(){const {user}=useAuth();return <><PageHeader title="Profile" subtitle="Account identity and access role."/><Card><div className="flex items-center gap-5"><div className="grid h-20 w-20 place-items-center rounded-3xl bg-purple text-3xl font-black text-white">{user?.name?.[0]}</div><div><h2 className="text-2xl font-black">{user?.name}</h2><p className="text-slate-500">{user?.email}</p><p className="mt-2 rounded-full bg-purple/10 px-3 py-1 text-sm font-black text-purple inline-block">{user?.role}</p></div></div></Card></>}
